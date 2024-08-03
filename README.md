@@ -25,8 +25,7 @@ Select a country from the dropdown to load cities, then enter a city name to dis
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
+Distributed under the MIT License.
 ## Acknowledgments
 
 - OpenWeatherMap for providing weather data.
