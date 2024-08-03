@@ -32,4 +32,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - OpenWeatherMap for providing weather data.
 - CountriesNow for providing country and city data.
 - All contributors who participate in this project.
-# weather-app
+
