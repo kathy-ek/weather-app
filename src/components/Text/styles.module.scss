@@ -1,18 +1,33 @@
 .text {
   &.large {
     font-size: 2rem;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 1rem;
+    }
   }
 
   &.medium {
     font-size: 1.5rem;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 0.8rem;
+    }
   }
 
   &.small {
     font-size: 1.3rem;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 0.8rem;
+    }
   }
 
   &.extra-small {
     font-size: 1rem;
+    @media only screen and (max-width: 600px) {
+      font-size: 0.8rem;
+    }
   }
 
   &.bottom {

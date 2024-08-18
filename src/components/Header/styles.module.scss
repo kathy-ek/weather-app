@@ -5,6 +5,13 @@
     background-color: #554b5e;
     color: #edeaf5;
     padding-inline: 14px;
+    max-width: 1700px;
+    margin-inline: auto;
+
+    @media only screen and (max-width: 600px) {
+        display: block;
+        padding-block: 10px;
+      }
 
     .right-header {
         display: flex;

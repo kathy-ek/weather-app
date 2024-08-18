@@ -12,6 +12,10 @@
     align-items: center;
     justify-content: space-between;
 
+    @media only screen and (max-width: 600px) {
+      width: 60%;
+    }
+
     input {
       background-color: transparent;
       border: none;
@@ -33,6 +37,10 @@
     background: white;
     border-radius: 12px;
     width: 25%;
+
+    @media only screen and (max-width: 600px) {
+      width: 60%;
+    }
 
     .element {
       color: #554b5e;

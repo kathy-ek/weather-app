@@ -12,6 +12,10 @@
     padding-inline: 30px;
     padding-block: 8px;
 
+    @media only screen and (max-width: 992px) {
+      width: 80%;
+    }
+
     .title {
       display: flex;
       justify-content: space-between;
@@ -22,6 +26,15 @@
       align-items: center;
       gap: 26px;
 
+      @media only screen and (max-width: 992px) {
+        display: block;
+
+        img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+
       .text {
         .temperature {
           font-size: 2.6rem;
@@ -31,6 +44,11 @@
         p {
           margin: 0;
           margin-block: 3px;
+
+          @media only screen and (max-width: 600px) {
+            margin-block: 1rem;
+          }
+
         }
       }
     }
@@ -38,6 +56,14 @@
     .min-max-temperature {
       display: flex;
       justify-content: space-around;
+
+      @media screen and (max-width: 992px) {
+        flex-direction: column;
+
+        p {
+          margin-block: 1rem;
+        }
+      }
     }
   }
 }

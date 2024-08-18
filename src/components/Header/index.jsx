@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className={styles["header"]}>
       <Text
-        text="Get the latest on today's weather in your city"
+        text="Get the latest on today's weather"
         fontSize="large"
       />
       <div className={styles["right-header"]}>
